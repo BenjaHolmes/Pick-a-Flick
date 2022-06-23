@@ -24,6 +24,7 @@ hr {
   height: 5px;
   margin-top: -5px;
   margin: 1px solid rgb(252, 127, 32);
+  margin-top: -8px;
 }
 .main {
   display: flex;
