@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pick a Flick</title>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato:wght@700&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <h1>Pick-a-Flick</h1>
+    </div>
+    <hr />
+    <div class="main">
+      <div class="sidebar-left">
+        <img src="src/filmreel.png" />
+      </div>
+      <div class="middle">
+        Generate a Random Movie Based on Genre Selection
+        <form>
+          <select name="genres" id="genres"> </select>
+        </form>
+        <button id="mainButton">Get A Movie</button>
+        <div id="movieInfo">
+          <div id="moviePoster"></div>
+          <div id="movieText"></div>
+          <div id="movieTagline"></div>
+        </div>
+      </div>
+      <div class="sidebar-right">
+        <img src="src/filmreel.png" />
+      </div>
+    </div>
+    <hr class="line2" />
+    <div class="footer"></div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
